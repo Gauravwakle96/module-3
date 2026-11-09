@@ -12,4 +12,13 @@ Checked on 9 November 2026 using the locked environment.
 
 One third-party test warning: Starlette's TestClient reports that its HTTPX integration is deprecated in favor of HTTPX2. It did not affect the passing results.
 
-The local verification used SQLite. Supabase connectivity, PostgreSQL execution, TLS networking, and the live Render deployment have **not** been verified because cloud account setup is pending. Follow `README.md` before submitting a live URL.
+Cloud verification completed on 9 November 2026:
+
+- Supabase project `nivrxkypsrzvjvpolqvr` is in a Free organization. The schema was applied, RLS is enabled, and the session-pooler client connection uses TLS.
+- The application's PostgreSQL add/list flow passed against the managed database.
+- Render service `srv-dbou2jp5efls73f0ssug` uses the Free plan. Build and deployment succeeded at https://module3-feedback-board.onrender.com.
+- Public `/health` returned `{"status":"ok","database":"postgresql"}`.
+- The real HTTPS browser flow submitted feedback, reloaded the page, and verified persistence through the API. No JavaScript errors or axe WCAG A/AA violations at desktop, tablet, and mobile widths.
+- Actual live screenshots and the public verification report are in `linkedin/03-live-desktop.png`, `linkedin/04-live-mobile.png`, and `linkedin/live-checks.json`.
+
+Provider CLI credentials and the database password are held outside the repository. Auto-deploy was disabled to avoid unnecessary rebuilds for documentation changes; future code deployments can be triggered manually from Render.

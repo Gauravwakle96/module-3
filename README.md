@@ -4,6 +4,10 @@ A simple one-page project for **Cloud Services & Web App Deployment**. Enter a n
 
 Repository: https://github.com/Gauravwakle96/module-3
 
+**Live website:** https://module3-feedback-board.onrender.com
+
+Deployed on Render Free with Supabase Free PostgreSQL. Public feedback submission and persistence on refresh were verified on 9 November 2026. Render may take about a minute to wake after inactivity.
+
 ## Local preview
 
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) and Python 3.11 or newer.
@@ -75,7 +79,7 @@ uv build
 uvx pip-audit --path .venv/Lib/site-packages
 ```
 
-See [SUBMISSION.md](SUBMISSION.md) for the Module 3 requirement mapping and [linkedin/post.txt](linkedin/post.txt) for a caption. Screenshots in that folder are local previews until replaced with captures from the live URL.
+See [SUBMISSION.md](SUBMISSION.md) for the Module 3 requirement mapping and [linkedin/post.txt](linkedin/post.txt) for a caption. Upload `linkedin/03-live-desktop.png` and `linkedin/04-live-mobile.png`, captured from the live website. The original local preview screenshots are also retained.
 
 ## Primary references and licenses
 

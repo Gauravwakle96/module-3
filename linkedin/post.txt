@@ -1,9 +1,11 @@
 Built a simple Feedback Board for my Module 3 exercise on Cloud Services & Web App Deployment.
 
-The app uses Python/FastAPI and HTML, CSS, and JavaScript. Visitors can submit a short message and view recent feedback. I tested the local save-and-refresh flow and prepared a free Render + Supabase PostgreSQL deployment, with server-side environment variables, a health endpoint, and basic request and storage limits.
+The app uses Python/FastAPI and HTML, CSS, and JavaScript. Visitors can submit a short message and view recent feedback. I deployed it using Render Free and Supabase Free PostgreSQL, with server-side environment variables, a health endpoint, and basic request and storage limits.
+
+Live website: https://module3-feedback-board.onrender.com
 
 GitHub: https://github.com/Gauravwakle96/module-3
 
-The attached screenshots show the local preview. Cloud deployment is the next step.
+The attached screenshots show the live website. I verified that feedback remains saved after refreshing the page.
 
 #Python #FastAPI #DevOps #CloudComputing #LearningByDoing

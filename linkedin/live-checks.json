@@ -1,0 +1,30 @@
+{
+  "url": "https://module3-feedback-board.onrender.com",
+  "database": "postgresql",
+  "https": true,
+  "flows": [
+    "public page",
+    "database health",
+    "submit",
+    "reload persistence"
+  ],
+  "javascript_errors": [],
+  "accessibility": [
+    {
+      "viewport": "1280x1080",
+      "violations": []
+    },
+    {
+      "viewport": "768x1024",
+      "violations": []
+    },
+    {
+      "viewport": "390x1180",
+      "violations": []
+    }
+  ],
+  "screenshots": [
+    "03-live-desktop.png",
+    "04-live-mobile.png"
+  ]
+}
