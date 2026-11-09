@@ -19,6 +19,8 @@ Open http://localhost:8013. Without `DATABASE_URL`, feedback is stored in the ig
 
 This repository contains only Module 3. Run the app commands from the repository root. An ordinary virtual environment also works: install `requirements.txt` with pip, then run the same uvicorn command without `uv run`.
 
+`.python-version` pins the tested Python 3.13.15 runtime for uv and Render.
+
 ## Free cloud deployment
 
 1. Sign in to [Supabase](https://supabase.com/dashboard). Create a **Free** project and keep its database password private.
