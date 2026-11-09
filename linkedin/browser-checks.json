@@ -1,0 +1,30 @@
+{
+  "target": "local preview using SQLite",
+  "flows": [
+    "keyboard navigation",
+    "submit",
+    "refresh",
+    "reload persistence",
+    "database error recovery",
+    "safe text rendering"
+  ],
+  "javascript_errors": [],
+  "accessibility": [
+    {
+      "viewport": "1280x1050",
+      "violations": []
+    },
+    {
+      "viewport": "768x1024",
+      "violations": []
+    },
+    {
+      "viewport": "390x1000",
+      "violations": []
+    }
+  ],
+  "screenshots": [
+    "01-feedback-desktop.png",
+    "02-feedback-mobile.png"
+  ]
+}
